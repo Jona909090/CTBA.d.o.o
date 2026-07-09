@@ -2,32 +2,31 @@
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTBA 3D Logo</title>
 
-<script type="importmap">
+    <link rel="stylesheet" href="style.css">
+
+    <script type="importmap">
 {
   "imports": {
-    "animejs": "https://unpkg.com/animejs@4.5.0/dist/modules/index.js",
-    "animejs/": "https://esm.sh/animejs@^4.4.1/",
-    "animejs/adapters/three": "https://unpkg.com/animejs@4.5.0/dist/modules/adapters/three/index.js",
     "three": "https://unpkg.com/three@0.184.0/build/three.module.js",
-    "three/": "https://esm.sh/three@^0.184.0/",
     "three/addons/": "https://unpkg.com/three@0.184.0/examples/jsm/"
   }
 }
 </script>
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>CTBA 3D Logo</title>
-
-<link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
 
-<!-- OVDE IDE SVG LOGO -->
+<div id="loading">
+    CTBA
+</div>
+
+<canvas id="canvas"></canvas>
+
 <script type="module" src="script.js"></script>
 
 </body>
